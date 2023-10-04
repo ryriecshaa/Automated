@@ -97,9 +97,7 @@ Click Search for Edit
 
 Click Edit Farm
     Click Element    xpath:/html/body/div/div[2]/div/div/table/tbody/tr/td[8]/div/button
-    # Sleep    20
     Click Element    xpath://*[@id="simple-menu"]/div[3]/ul/li[2]\
-    # Press Keys
     Sleep    5
 
 Enter Edit ID Farm
