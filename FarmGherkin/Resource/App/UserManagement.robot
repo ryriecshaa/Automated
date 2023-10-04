@@ -22,4 +22,27 @@ User Search User Name
     Enter User Management Page
     CLick Search Button
     Verify Search Success
-    
+
+User Filter Role and Status
+    Click Filter Button
+    Enter Filter Role
+    Enter Filter Status
+
+User Click Detail User
+    Click Detail User
+
+User CLick Edit User
+    Click Edit User
+    Enter Edit Role
+    Enter Edit Nama
+    Enter Edit Nomor Telepon
+    Enter Edit Alamat
+    Enter Edit Save Button
+
+User Click Hapus User
+    Click Hapus User
+    Click Konfirmasi Hapus
+
+User Click Reset Password for Management
+    Click Reset Password for Management
+    Click Konfirmasi Reset Password

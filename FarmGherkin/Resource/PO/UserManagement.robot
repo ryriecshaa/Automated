@@ -17,16 +17,16 @@ Click List Kepala Kandang
     Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[1]/div/div[2]/div/div[1]
 
 Enter Name
-    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[2]/div/input    Automated Ryrie
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[2]/div/input    Automated Ryriee
     
 Enter Number Telephone
-    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[3]/div/input    0872727172347
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[3]/div/input    0872727172340
 
 Enter Email    
-    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[4]/div/input    Ryriee@gmail.com
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[4]/div/input    Ryrieeeec@gmail.com
 
 Enter Address
-    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[5]/div/textarea    Jalan Bojongsoang no 45
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[5]/div/textarea    Jalan Bojongsoang no 12
 
 Enter Status
     Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[6]/div[2]/div[1]/div/input
@@ -45,6 +45,62 @@ Verify Search Success
     Sleep    5
 
 Click Filter Button
-    Click Element    xpath://*[@id="root"]/div[2]/div/div/nav/div/button[1]
-    Click Element    xpath:/html/body/div[4]/div/div/div[1]
+    Click Element    xpath:/html/body/div[1]/div[2]/div/div/nav/div/button[1]
     Sleep    5
+    
+Enter Filter Role
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]
+
+
+Enter Filter Status
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[3]/div/div/div[1]/div[2]/div[2]
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div[1]
+
+Click Detail User
+    Click Element    xpath:/html/body/div[1]/div[2]/div/div/table/tbody/tr[1]/td[5]/button
+    Sleep    5
+    Click Element    xpath://html/body/div[2]/div[3]/ul/li[1]
+    Sleep    5
+
+Click Edit User
+    Click Element    xpath:/html/body/div[1]/div[2]/div/div/table/tbody/tr[1]/td[5]/button
+    Sleep    5
+    Click Element    xpath:/html/body/div[2]/div[3]/ul/li[2]
+    Sleep    20
+
+Enter Edit Role
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[1]/div/div/div[1]/div[2]
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[1]/div/div[2]/div/div[2]
+
+Enter Edit Nama
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[2]/div/input    Automated Ryrie Ceisha Ramadhanty
+
+Enter Edit Nomor Telepon
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[3]/div/input    082222227893
+
+Enter Edit Alamat
+    Input Text    xpath:/html/body/div[3]/div/div/div[2]/div[4]/div/textarea    Jalan Pepaya No 82
+
+Enter Edit Save Button
+    Click Element    xpath:/html/body/div[3]/div/div/div[3]/button[2]
+    Sleep    5    
+
+Click Hapus User
+    Sleep    3
+    Click Element    xpath:/html/body/div/div[2]/div/div/table/tbody/tr[5]/td[5]/button
+    Sleep    2
+    Click Element    xpath://*[@id="simple-popover"]/div[3]/ul/li[3]
+
+Click Konfirmasi Hapus
+    Sleep    20
+    Click Element    xpath:/html/body/div[3]/div/div/div[3]/button[2]
+
+Click Reset Password for Management
+    Click Element    xpath:/html/body/div/div[2]/div/div/table/tbody/tr[1]/td[5]/button
+    Sleep    3
+    Click Element    xpath:/html/body/div[2]/div[3]/ul/div/li
+    Sleep    3
+
+Click Konfirmasi Reset Password
+    Click Element    xpath:/html/body/div[3]/div/div/div[3]/button[2]
